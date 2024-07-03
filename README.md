@@ -63,6 +63,8 @@ python main.py
 
 This will initiate a conversation between User Proxy and Assistant.
 
+Check the coding directory for files created by Agents.
+
 ## Note
 
 This application is designed for demonstration purposes and showcases the use of conversational AI in Python. It does not include error handling or production-level features.
