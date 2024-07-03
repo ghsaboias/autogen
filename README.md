@@ -1,6 +1,6 @@
-# Main Python Application
+# Autogen + LiteLLM + Claude
 
-This Python project consists, basically, on a LiteLLM server and Autogen for agent orchestration. LiteLLM is responsible for creating a Claude API in the OpenAI format, to be consumed by the Autogen agents. Project can also be used with OpenAI (see scrips/human_in_loop.py).
+This Python project consists, basically, on a LiteLLM server and Autogen for agent orchestration. LiteLLM is responsible for creating a Claude API in the OpenAI format, to be consumed by the Autogen agents. Project can also be used with OpenAI (see scripts/human_in_loop.py).
 
 ## Features
 
@@ -21,9 +21,7 @@ This Python project consists, basically, on a LiteLLM server and Autogen for age
    litellm --model claude-3-5-sonnet-20240620
    ```
 
-3. Ensure Python 3.11 is installed on your system.
-
-4. Set up a virtual environment and activate it:
+3. Set up a virtual environment and activate it:
 
    ```sh
    python3 -m venv venv
@@ -31,13 +29,13 @@ This Python project consists, basically, on a LiteLLM server and Autogen for age
    .\venv\Scripts\Activate.ps1  # On Windows
    ```
 
-5. Install the required dependencies (assuming `requirements.txt` is provided):
+4. Install the required dependencies (assuming `requirements.txt` is provided):
 
    ```sh
    pip install -r requirements.txt
    ```
 
-6. Set the api key as an environment variable:
+5. Set the api key as an environment variable:
 
    OpenAI:
 
