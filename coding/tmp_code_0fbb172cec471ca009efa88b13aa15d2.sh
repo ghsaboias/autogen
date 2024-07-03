@@ -1,0 +1,1 @@
+python /workspace/monkey_info_generator.py

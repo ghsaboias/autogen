@@ -53,10 +53,10 @@ This Python project consists, basically, on a LiteLLM server and Autogen for age
 
 ## Usage
 
-Run a script with Python (e.g. main.py):
+Run a script with Python (e.g. coder_assistant.py):
 
 ```sh
-python main.py
+python coder_assistant.py
 ```
 
 This will initiate a conversation between User Proxy and Assistant.
